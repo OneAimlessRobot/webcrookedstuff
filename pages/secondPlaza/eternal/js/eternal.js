@@ -6,7 +6,7 @@ console.log("Background volume:  "+audio_noise.volume);
 // Setting
 audio_noise.volume = 0.3;
 
-audio_song.volume = 0.7;
+audio_song.volume = 0.5;
 
 audio_song.seekabkle= true;
 console.log("Song volume:  "+audio_song.volume);

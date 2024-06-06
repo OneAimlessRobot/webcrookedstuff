@@ -7,8 +7,6 @@ body.pagecontainer{
   background-attachment: fixed;
   background-size: 100% 100%;
 
-
-        text-align: center;
 }
 div.linkcontainer *{
 
@@ -69,8 +67,46 @@ audio.song{
 }
 .pagetitle{
 
+position: absolute;
+left:50%;
+top:50%;
+transform: translate(-50%,-50%);
 opacity: 1;
 
+}
+
+div.songcontainer{
+        padding: 20px;
+        background-image: url('../images/industrial.avif');
+        position: absolute;
+        opacity:0.3;
+}
+div.songcontainer:hover{
+        padding: 20px;
+        background-image: url('../images/industrial.avif');
+        position: absolute;
+        opacity:1;
+}
+div.songcontainer.header{
+        position: absolute;
+}
+
+.homelink{
+	position: absolute;
+	top:90%;
+	left:50%;
+	text-decoration: none;
+	font-size:30px;
+	background-color: rgb(150,150,10,1);
+	transform: translate(-50%,-50%);
+	color: rgb(255,255,255,1);
+}
+.homelink:hover{
+
+	font-size:30px;
+	background-color: rgb(25,25,1,1);
+	text-aline:center;
+	color: rgb(255,255,255,1);
 }
 </style>
 
@@ -105,7 +141,7 @@ Your browser does not support the audio element.
 <script src="js/draggeable.js" type="text/javascript"></script>
 <br>
 
-<a href="../2ndplaza.html">Home</a>
+<a class="homelink" href="../2ndplaza.html">Home</a>
 
 
 </body>
