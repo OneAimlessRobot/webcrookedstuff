@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+ 	background-color: rgb(0,0,0,1);
+	
+}
+audio.song:hover{
+
+        opacity: 1;
+
+}
+audio.song{
+	position:absolute;
+        opacity: 0.1;
+ 	top:50%;
+	left:50%;
+ 	transform: translate(-50%, -50%);
+}
+.pagetitle{
+	color: rgb(70,70,180,1);
+
+}
+
+div.songcontainer3{
+        padding: 5px;
+	position: absolute;
+        opacity:0.3;
+}
+div.songcontainer3:hover{
+        opacity:1;
+}
+div.songcontainer3.header{
+        position: absolute;
+}
+
+
+div.text1-container{
+
+        text-align: center;
+}
+div.text1-intro-container{
+
+}
+p.text1-intro{
+
+        color: white;
+        font-size: 30px;
+}
+iframe.text1{
+        color:white;
+	background-color: rgb(100,100,100,0.5);
+	width: 500px;
+        height: 5px;
+        opacity: 0.5;
+}
+iframe.text1:hover{
+	background-color: rgb(100,100,100,1);
+        height: 300px;
+        opacity: 1;
+}
+
+
+div.girlcontainer{
+        padding:20px;
+        position:absolute;
+        opacity:0.0;
+}
+img.girl{
+
+
+}
+div.girlcontainer:hover{
+
+        opacity:1;
+}
+
+
+a.homelink{
+        text-decoration: none;
+        font-size:30px;
+        background-color: rgb(150,150,10,1);
+        color: rgb(255,255,255,1);
+	position:absolute;
+ 	top:90%;
+	left:50%;
+}
+
+a.homelink:hover{
+
+        font-size:30px;
+        background-color: rgb(25,25,1,1);
+        color: rgb(255,255,255,1);
+}
+</style>
+<head>
+<title>Eternal</title>
+</head>
+
+<body>
+<br>
+<a class="homelink" href="../2ndplaza.html">Home</a>
+
+<div class="girlcontainer" id="girl">
+<img class="girl" src="images/isa2.gif" width="500" height="500">
+</div>
+
+<audio controls loop class="song" id="song">
+        <source src="../audio/Scourge.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>
+<br>
+
+<div class="songcontainer3" id="dragtext1">
+<div  class="text1-container">
+<div class="text1-intro-container">
+<p class="text1-intro">Isas end</p>
+</div>
+<iframe class="text1" src="texts/isaend.txt"></iframe>
+</div>
+</div>
+<div class="songcontainer3" id="dragtext2">
+<div  class="text1-container">
+<div class="text1-intro-container">
+<p class="text1-intro">Isas end pt. final</p>
+</div>
+<iframe class="text1" src="texts/the_end.txt"></iframe>
+</div>
+</div>
+<br>
+<script src="js/eternal.js" type="text/javascript"></script>
+<script src="js/draggeable.js" type="text/javascript"></script>
+
+</body>
+
+</html>
