@@ -1,5 +1,4 @@
 //dragElement("songs");
-dragElement("draggeabletext");
 dragElement("song1");
 function dragElement(elmntid) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;

@@ -2,7 +2,7 @@
 <html>
 <style>
 body{
- 	background-color: rgb(0,0,0,1);
+ 	background-color: rgb(10,3,3,1);
 	
 }
 audio.song:hover{
@@ -62,9 +62,11 @@ iframe.text1:hover{
 
 
 div.girlcontainer{
-        padding:20px;
+	left: 100%;
+	top:100%;
+	transform: translate(-100%,-100%);
         position:absolute;
-        opacity:0.0;
+        opacity:0.3;
 }
 img.girl{
 
@@ -94,7 +96,7 @@ a.homelink:hover{
 }
 </style>
 <head>
-<title>Eternal</title>
+<title>Isa's end</title>
 </head>
 
 <body>
@@ -102,13 +104,8 @@ a.homelink:hover{
 <a class="homelink" href="../2ndplaza.html">Home</a>
 
 <div class="girlcontainer" id="girl">
-<img class="girl" src="images/isa2.gif" width="500" height="500">
+<img class="girl" src="images/isa4.gif" width="500" height="500">
 </div>
-
-<audio controls loop class="song" id="song">
-        <source src="../audio/Scourge.mp3" type="audio/mp3">
-Your browser does not support the audio element.
-</audio>
 <br>
 
 <div class="songcontainer3" id="dragtext1">
@@ -128,6 +125,10 @@ Your browser does not support the audio element.
 </div>
 </div>
 <br>
+<audio  autoplay  style="display:none;" class="song" id="song">
+        <source src="../audio/Scourge.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>
 <script src="js/eternal.js" type="text/javascript"></script>
 <script src="js/draggeable.js" type="text/javascript"></script>
 

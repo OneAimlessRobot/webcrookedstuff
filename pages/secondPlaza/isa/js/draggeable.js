@@ -1,5 +1,4 @@
 //dragElement("songs");
-dragElement("girl");
 dragElement("dragtext2");
 dragElement("dragtext1");
 
